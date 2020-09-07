@@ -39,7 +39,7 @@ int main() {
   freopen("input.txt","r", stdin);
   freopen("output.txt","w", stdout);
 
-// though the graph is directed Graph
+
   Graph graph;
 
   int edges;
@@ -52,7 +52,9 @@ int main() {
     graph[u].push_back(make_pair(v, w));
   }
 
+    // vi minpath(graph.size()+1, INT_MAX);
     vi minpath(graph.size()+1, INT_MAX);
+
 
     int startnode = 0;
     setSortestPath(minpath, graph, startnode);
