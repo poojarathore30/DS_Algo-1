@@ -6,9 +6,9 @@ using namespace std;
 
 void setSortestPath(v1 &minpath, Graph graph, int startnode) {
 
-  // for tracking i ll be using set 
-  // concept if visited element should be in set 
-  // otherwise it is unvisited node 
+    // hello this is graph algorithm
+    // dijkstra algo 
+    // using priority queue
 
   priority_queue< pii, vector<pii> , greater<int> >pq;
 
