@@ -24,3 +24,9 @@ int main () {
   }
   return 0;
 }
+
+// git init
+// git remote add origin '...................'
+// git fetch --all 
+//git pull origin master --allow-unrelated-histories
+//git push --set-upstream origin master
