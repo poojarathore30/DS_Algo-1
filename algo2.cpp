@@ -28,5 +28,6 @@ int main () {
 // git init
 // git remote add origin '...................'
 // git fetch --all 
+// add and commit all your file changes
 //git pull origin master --allow-unrelated-histories
 //git push --set-upstream origin master
